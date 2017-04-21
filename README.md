@@ -54,106 +54,94 @@ Login:
  ![alt tag](screenshots/Login.jpg)
 
 Login-employee:
- 
+ ![alt tag](screenshots/Login-employee.jpg)
 
 Login-admin:
-
+![alt tag](screenshots/Login-admin.jpg)
  
 	Loged in as employee:
 
 Employee page:
- 
-
-
-
-
-
-
-
-
-
+ ![alt tag](screenshots/Employee-view1.jpg)
+ ![alt tag](screenshots/Employee-view2.jpg)
 
 Adding Client-CNP exists:
- 
+ ![alt tag](screenshots/Employee-addClient-CNPexists.jpg)
 
 Adding Client (same details, correct CNP):
-
+![alt tag](screenshots/Employee-addClient.jpg)
  
-
 Delete Client (Teodora Barbulescu):
 -	before
+![alt tag](screenshots/Employee-beforeDelet-TeodoraBarbulescu.jpg)
  
 -	after
-
+![alt tag](screenshots/Employee-afterDelete-TeodoraBarbulescu.jpg)
  
 
 Update Client (Andreescu Silviu):
- 
+ ![alt tag](screenshots/Employee-updateClient1.jpg)
 
 Reset Form:
- 
+ ![alt tag](screenshots/Employee-resetForm.jpg)
 
 Select Client Accounts (Hans Chr. Andersen):
- 
+ ![alt tag](screenshots/Employee-selectAccounts-HansChrAnd.jpg)
 
 Deposit in account 
 -	initially:
- 
+![alt tag](screenshots/Employee-depositInAccount-1-HansChrAnd.jpg)
 
 -	after Refresh:
- 
+![alt tag](screenshots/Employee-depositInAccount-2-afterRefresh-HansChrAnd.jpg) 
 
 Withdraw from Account:
 -	initially:
- 
+![alt tag](screenshots/Employee-withdrawFromAccount-1-beforeRefresh-HansChrAnd.jpg)
 
 -	after Refresh:
- 
+![alt tag](screenshots/Employee-withdrawFromAccount-2-afterRefresh-HansChrAnd.jpg) 
 
 Transfer between accounts:
- 
+![alt tag](screenshots/Employee-transfer-1-HansChrAnd.jpg)
 
 after Refresh:
- 
+ ![alt tag](screenshots/Employee-transfer-2-HansChrAnd.jpg)
 
 Add Client Account:
-
- 
- 
+![alt tag](screenshots/Employee-addAccount-1-HansChrAnd.jpg)
+![alt tag](screenshots/Employee-addAccount-2-HansChrAnd.jpg)
 
 after Refresh:
- 
+ ![alt tag](screenshots/Employee-addAccount-3-HansChrAnd.jpg)
 
 Delete Client Account:
- 
+ ![alt tag](screenshots/Employee-deleteAccount-1-HansChrAnd.jpg)
 
 after Refresh:
-
+![alt tag](screenshots/Employee-deleteAccount-2-HansChrAnd.jpg)
  
-
 
 	Logged in as admin:
 
 Admin page:
- 
-
-
-
-
+ ![alt tag](screenshots/Admin-view1.jpg)
+ ![alt tag](screenshots/Admin-view2.jpg)
 
 Add Employee:
- 
+ ![alt tag](screenshots/Admin-addEmpl-1.jpg)
+ ![alt tag](screenshots/Admin-addEmpl-2.jpg)
  
 Add Employee with existing CNP:
+ ![alt tag](screenshots/Admin-addEmpl-3-identicalCNP.jpg)
  
 Delete Employee (Maria Nicoara):
 -	before:
- 
+![alt tag](screenshots/Admin-beforeDelete.jpg)
+
 -	after:
- 
+![alt tag](screenshots/Admin-afterDelete.jpg)
+
 Update Employee:
- 
- 
-
-
-
+![alt tag](screenshots/Admin-updateEmpl-1.jpg) 
+![alt tag](screenshots/Admin-updateEmpl-2.jpg) 
