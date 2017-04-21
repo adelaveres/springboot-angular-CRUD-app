@@ -39,17 +39,19 @@ Installation steps:
 	
 Accessing application:
 ● Employee View: 
-	-username: employee
-	-password: empl
+
+	--username: employee
+	--password: empl
 	
 ● Admin View:
-	-username: admin
-	-password: adm
+
+	--username: admin
+	--password: adm
 
 Use cases screenshots:
 
 Login:
- 
+ ![alt tag](screenshots/Login.jpg)
 
 Login-employee:
  
