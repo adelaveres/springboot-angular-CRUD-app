@@ -38,6 +38,7 @@ Installation steps:
 	http://download.eclipse.org/technology/m2e/releases
 	
 Accessing application:
+
 ● Employee View: 
 
 	--username: employee
