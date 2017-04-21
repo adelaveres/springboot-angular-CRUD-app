@@ -1,0 +1,72 @@
+drop database if exists bank_app;
+create database bank_app;
+use bank_app;
+
+
+create table Client(
+	id int unique not null auto_increment primary key,
+    cnp varchar(15) unique not null,
+	name varchar(60),
+    idnumber int not null,
+    address varchar(100)
+); 
+
+create table Account(
+	accountId int unique not null auto_increment primary key,
+    type ENUM('spending','saving'),
+    sumMoney int,
+    creationDate date,
+    cnp varchar(15) not null
+);
+
+create table LoginAccount(
+	loginId int unique not null auto_increment primary key,
+    username varchar(20),
+    password varchar(20)
+);
+
+create table Employee(
+	employeeId int unique not null auto_increment primary key,
+    name varchar(60),
+    cnp varchar(15) unique not null,
+    address varchar(100)
+);
+
+insert into LoginAccount(username, password) values
+('employee','empl'),
+('admin', 'adm');
+
+insert into Employee(name, cnp, address) values
+('Tiberiu Ionescu','2200220022001','str. Ion Creanga, nr. 4'),
+('Toma Dumitrescu','2200220022002','str. Rares Voda, nr. 119'),
+('Angelica Anghelescu','2200220022003','str. Muntii Bucegi, nr. 102'),
+('Horea Nicolescu','2200220022004','str. Fagaras, nr. 204'),
+('Claudia Lungu','2200220022005','str. Ciocarliei, nr. 23')
+;
+
+insert into Account(type, sumMoney, creationDate,cnp) values
+/*1*/('spending', 10000, curdate(), "1000100010001"),
+/*2*/('saving', 20000, curdate(), "1000100010002"),
+/*3*/('spending', 9600, curdate(), "1000100010002"),
+/*4*/('spending', 13020, curdate(), "1000100010003"),
+/*5*/('spending', 200, curdate(), "1000100010003"),
+/*6*/('spending', 3200, curdate(), "1000100010004"),
+/*7*/('saving', 19000, curdate(), "1000100010004"),
+/*8*/('saving', 1100, curdate(), "1000100010004"),
+/*9*/('saving', 11300, curdate(), "1000100010005"),
+/*10*/('spending', 3211, curdate(), "1000100010005"),
+/*11*/('spending', 4012, curdate(), "1000100010006"),
+/*12*/('saving', 12500, curdate(), "1000100010006"),
+/*12*/('saving', 500, curdate(), "1000100010006");
+
+insert into Client(cnp, idnumber, name, address) values
+("1000100010001", 123123,"Andreescu Silviu", "str. Bucuresti, nr. 9, Tg. Mures"),
+("1000100010002", 124124,"Constantin Elena", "str. Campiei, nr. 10, Sighisoara"),
+("1000100010003", 125125,"Petrescu Bogdan", "str. Farcas Marin, nr. 2, Timisoara"),
+("1000100010004", 126136,"Pablo Picasso", "str. Place de la Concorde, nr. 14, Paris"),
+("1000100010005", 127127,"Hans Christian Andersen", "str. Palatului Regal, nr. 20, Odense"),
+("1000100010006", 128128,"Martin Luther", "str. Eisleberg, nr. 9, Saxonia");
+alter table Account
+add constraint fk_cnp
+foreign key(cnp)
+references Client(cnp) on delete cascade on update cascade;

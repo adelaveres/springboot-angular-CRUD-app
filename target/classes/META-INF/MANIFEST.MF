@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootCRUDBankApp
+Implementation-Version: 1.0.0
+Built-By: Adela
+Implementation-Vendor-Id: com.springboot
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootCR
+ UDBankApp/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
